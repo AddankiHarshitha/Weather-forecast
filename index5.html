@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+    <p>Enter a location or use your current location to fetch weather data:</p>
+
+    <!-- Input for City -->
+    <div class="input-container">
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button id="fetchWeather">Get Weather</button>
+      <button id="useLocation">Use My Location</button>
+    </div>
+
+    <!-- Weather Display -->
+    <div id="weatherData" class="weather-data hidden">
+      <h2 id="locationName"></h2>
+      <p id="temperature"></p>
+      <p id="conditions"></p>
+      <p id="humidity"></p>
+    </div>
+
+    <!-- Error Message -->
+    <div id="errorMessage" class="error-message hidden"></div>
+  </div>
+
+  <script src="script5.js"></script>
+</body>
+</html>
+
+
+
+
+
